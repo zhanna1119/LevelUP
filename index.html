@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head class="page">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Level UP</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic" rel="stylesheet" />
+</head>
+
+<body>
+  <main>
+    <section class="promo-header">
+      <div class="video-back">
+        <video src="img/video-back.mp4" autoplay muted loop></video>
+        <div class="effects"></div>
+      <div class="promo-header__wrapper">
+      <h1 class="promo-header__title">Level UP средство для потенции</h1>
+      <div class="promo-header__container">
+      <picture>
+        <img src="img/prod.png" width="200" height="266" alt="фото товара Level UP">
+      </picture>
+      <ul class="promo-header__list">
+        <li class="promo-header__item">Натуральный состав</li>
+        <li class="promo-header__item">Быстрое действие</li>
+        <li class="promo-header__item">Отличное качество</li>
+      </ul>
+      </div>
+      <a class="button" href="#form">Заказать</a>
+      </div>
+      </div>
+    </section>
+    <section class="compound">
+      <h2 class="visually-hidden">Состав продукта</h2>
+      <div class="compound__container">
+        <div class="compound__container-wrapper">
+        <div class="compound__item">
+          <span class="compound__item-title">Ингридиент</span>
+       </div>
+      <div class="compound__item">
+        <span class="compound__item-title">Ингридиент</span>
+      </div>
+      <div class="compound__item">
+        <span class="compound__item-title">Ингридиент</span>
+      </div>
+      </div>
+      <div class="compound__container-wrapper">
+      <div class="compound__item-img">
+        <img src="img/prod.png" width="200" height="266" alt="фото товара Level UP">
+      </div>
+      </div>
+      <div class="compound__container-wrapper">
+      <div class="compound__item">
+        <span class="compound__item-title">Ингридиент</span>
+      </div>
+      <div class="compound__item">
+        <span class="compound__item-title">Ингридиент</span>
+      </div>
+      <div class="compound__item">
+        <span class="compound__item-title">Ингридиент</span>
+      </div>
+      </div>
+      </div>
+      <a class="button" href="#form">Заказать</a>
+    </section>
+    <section class="reviews">
+      <h2 class="visually-hidden">Отзывы от товаре</h2>
+      <div class="reviews__wrapper slider">
+      <div class="item">
+        <div class="reviews__item">
+        <picture>
+          <img src="img/user-photo.jpg" width="270" height="180" alt="фото пользователя">
+        </picture>
+        <span class="reviews__name">Иван Иванов</span>
+        <p class="reviews__text">Для современного мира выбранный нами инновационный путь выявляет срочную потребность стандартных подходов. </p>
+        </div>
+      </div>
+      <div class="item">
+        <div class="reviews__item">
+        <picture>
+          <img src="img/user-photo.jpg" width="270" height="180" alt="фото пользователя">
+        </picture>
+        <span class="reviews__name">Иван Иванов</span>
+        <p class="reviews__text">Но семантический разбор внешних противодействий предопределяет высокую востребованность дальнейших направлений развития.</p>
+      </div>
+      </div>
+      <div class="item">
+        <div class="reviews__item">
+        <picture>
+          <img src="img/user-photo.jpg" width="270" height="180" alt="фото пользователя">
+        </picture>
+        <span class="reviews__name">Иван Иванов</span>
+        <p class="reviews__text">Банальные, но неопровержимые выводы, а также явные признаки победы институционализации освещают чрезвычайно интересные
+        особенности картины в целом.</p>
+      </div>
+      </div>
+      <a class="previous" onclick="previousSlide()">&#10094;</a>
+      <a class="next" onclick="nextSlide()">&#10095;</a>
+    </div>
+      <a class="button" href="#form">Заказать</a>
+    </section>
+    <section class="promo-main">
+      <div class="promo-main__container">
+        <picture>
+          <img src="img/doc.png" width="520" height="584" alt="фото c товаром Level UP">
+        </picture>
+        <p class="promo-main__text">В рамках спецификации современных стандартов, сделанные на базе интернет-аналитики выводы могут быть функционально
+        разнесены на независимые элементы. В своём стремлении повысить качество жизни, они забывают, что постоянный
+        количественный рост и сфера нашей активности создаёт необходимость включения в производственный план целого ряда
+        внеочередных мероприятий с учётом комплекса укрепления моральных ценностей.</p>
+      </div>
+      <ul class="promo-main__list">
+        <li class="promo-main__item">Натуральный состав</li>
+        <li class="promo-main__item">Быстрое действие</li>
+        <li class="promo-main__item">Отличное качество</li>
+      </ul>
+      <a class="button" href="#form">Заказать</a>
+    </section>
+    <section class="form-order">
+      <h2 class="visually-hidden">Форма заказа товара</h2>
+      <h3 class="form-order__title">Level UP</h3>
+          <div class="form-order__countdown countdown" id="countdown">
+            <div class="countdown-number visually-hidden">
+              <span class="days countdown-time"></span>
+              <span class="countdown-text">Days</span>
+            </div>
+            <div class="countdown-number visually-hidden">
+              <span class="hours countdown-time"></span>
+              <span class="countdown-text">Hours</span>
+            </div>
+            <div class="countdown-number">
+              <span class="minutes countdown-time"></span>
+              <span class="countdown-text visually-hidden">Minutes</span>
+            </div>
+            <span class="countdown-text">:</span>
+            <div class="countdown-number">
+              <span class="seconds countdown-time"></span>
+              <span class="countdown-text visually-hidden">Seconds</span>
+            </div>
+            </div>
+          <div class="form-order__container">
+          <div class="form-order__card">
+          <picture>
+            <img src="img/prod.png" width="300" height="366" alt="фото товара Level UP">
+          </picture>
+          <div class="form-order__card-price">
+          <del class="form-order__card-price-old">5000&#8381;</del>
+          <div class="form-order__card-price-new">2499&#8381;</div>
+          </div>
+        </div>
+        <div class="form-order__forma">
+          <form class="form" id="form" action="https://echo.htmlacademy.ru" method="POST">
+            <label class="label" for="name">Имя:</label>
+            <input class="input" id="name" name="name" type="text" placeholder="Иван Иванов" required>
+            <label class="label" for="tel">Телефон:</label>
+            <input class="input" id="tel" name="tel" type="tel" placeholder="89139000990" required>
+            <button class="button button-submit" type="submit">Заказать</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
