@@ -6,7 +6,7 @@ body {
   font-size: 24px;
   color: #000000;
   background-color: rgb(221, 220, 220);
-  background-image: url(img/background.png);
+  background-image: url(background.png);
   background-size: 100%;
   background-position: center;
 }
@@ -171,7 +171,7 @@ body {
 
 .compound__item {
   position: relative;
-  background-image: url(img/icon-food.svg);
+  background-image: url(icon-food.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-color: #68B738;
